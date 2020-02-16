@@ -1,1 +1,1 @@
-# s https://akrachkowski.github.io/rsschool-cv/cv
+# https://akrachkowski.github.io/rsschool-cv/cv
