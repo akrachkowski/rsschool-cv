@@ -1,0 +1,124 @@
+body
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.grid 
+{
+    display: grid;
+    grid-template-columns: 33% minmax(33%,1024px) 33%;
+    grid-template-areas: "header"
+                         "nav"
+                         "figure"
+                         "contacts"
+                         "profile"
+                         "skills"
+                         "code-examples"
+                         "work-experience"
+                         "education"
+                         "english";
+    grid-row-gap: 10px;
+       
+}
+.header
+{
+    grid-area: header;
+    grid-column: 2 / 3;
+    
+}
+.nav
+{
+    grid-area: nav;
+    grid-column: 2 / 3;
+    
+}
+.figure
+{
+    grid-area: figure;
+    grid-column: 2 / 3;
+    
+    
+}
+.contacts
+{
+    grid-area: contacts;
+    grid-column: 2 / 3;
+    
+}
+.profile
+{
+    grid-area: profile;
+    grid-column: 2 / 3;
+    
+}
+.skills
+{
+    grid-area: skills;
+    grid-column: 2 / 3;
+    
+}
+.code-examples
+{
+    grid-area: code-examples;
+    grid-column: 2 / 3;
+    
+}
+.work-experience
+{
+    grid-area: work-experience;
+    grid-column: 2 / 3;
+    
+}
+.education
+{
+    grid-area: education;
+    grid-column: 2 / 3;
+    
+}
+.english
+{
+    grid-area: english;
+    grid-column: 2 / 3;
+    
+}
+img
+{
+    height: 300px;
+    width: 250px;
+}
+table 
+{
+    text-align: left;
+    justify-content: center;
+    border-radius: 5px;
+}
+th
+{
+    border-bottom: solid #7373d6;
+}
+tr:hover 
+{
+    background-color: #fac9c9;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+  
+li a 
+{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color on hover */
+  li a:hover 
+{
+    background-color: #555;
+    color: white;
+}
